@@ -35,7 +35,7 @@ function App() {
     const getFirst=async()=>{
 
         try{
-          const response=await fetch("http://localhost:3000/")
+          const response=await fetch("http://98.90.205.141:3000/")
           const data=await response.json();
           console.log(data)
 
@@ -57,7 +57,7 @@ function App() {
     localStorage.setItem('tasks', JSON.stringify(currTasks));
     const sendTasks=async()=>{
       try{
-        const response=await fetch('http://localhost:3000/store',{
+        const response=await fetch('http://98.90.205.141:3000/store',{
             method:'POST',
             headers:{'Content-Type':'application/json'},
             body:JSON.stringify(currTasks)
