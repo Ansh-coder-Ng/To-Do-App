@@ -1,0 +1,44 @@
+body{  
+  margin:0
+}
+
+.main{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+   background: linear-gradient(135deg, #2c003e, #5a007a);
+  justify-content: center;
+  align-items: center;
+}
+
+
+.container{
+  background-color: #1a1a1a;
+  color: #fff;
+    border: 2px solid black;
+    padding: 2em;
+    border-radius: 30px ;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+button{
+    width: 100px;
+    height: 40px;
+}
+
+.header{
+  display: flex;
+  gap:15px
+}
+
+
+.list-item{
+  display: flex;
+  justify-content: space-around;
+  gap:10px;
+  margin: 10px;
+}
+
